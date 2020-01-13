@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rastaurant"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_all_restaurant_shop"
+            android:icon="@drawable/ic_shop_black_24dp"
+            android:title="@string/menu_all_restaurant" />
+
+        <item
+            android:id="@+id/nav_share_food"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/menu_share_food" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/menu_cart" />
+    </group>
+
+    <group android:id="@+id/terms_and_condition">
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="@string/help_center" />
+
+
+        <item
+                android:id="@+id/nav_terms"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="@string/terms" />
+
+    </group>
+
+</menu>

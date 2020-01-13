@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_rastaurant">
+
+    <fragment
+        android:id="@+id/nav_rastaurant"
+        android:name="com.example.finalyearauthientication.ui.Restaurant.RastaurantFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_restaurant" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_food_list"
+        android:name="com.example.finalyearauthientication.ui.FoodList.FoodListFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_food_list" >
+
+
+        <action
+            android:id="@+id/action_nav_food_list_to_nav_food_details"
+            app:destination="@id/nav_food_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_food_details"
+        android:name="com.example.finalyearauthientication.ui.FoodDetails.FoodDetailsFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_food_details" />
+
+    <fragment
+        android:id="@+id/nav_view_orders"
+        android:name="com.example.finalyearauthientication.ui.ViewOrder.ViewOrderFragment"
+        android:label="@string/view_order"
+        tools:layout="@layout/fragment_view_order" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.finalyearauthientication.ui.Cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_share_food"
+        android:name="com.example.finalyearauthientication.ui.ShareFood.ShareFoodFragment"
+        android:label="@string/menu_share_food"
+        tools:layout="@layout/fragment_share_food" />
+
+    <fragment
+    android:id="@+id/nav_all_restaurant"
+    android:name="com.example.finalyearauthientication.ui.AllRestaurant.AllRestaurantFragment"
+    android:label="@string/menu_all_restaurant"
+    tools:layout="@layout/fragment_all_restaurant" />
+
+    <fragment
+        android:id="@+id/nav_all_restaurant_shop"
+        android:name="com.example.finalyearauthientication.ui.AllRestaurantShop.AllShopRestaurantFragment"
+        android:label="@string/menu_all_restaurant"
+        tools:layout="@layout/fragment_all_restaurant_shop" />
+
+    <fragment
+        android:id="@+id/nav_help_center"
+        android:name="com.example.finalyearauthientication.ui.HelpCenter.HelpCenter"
+        android:label="@string/help_center"
+        tools:layout="@layout/fragment_help_center" />
+
+    <fragment
+        android:id="@+id/nav_terms_and_condition"
+        android:name="com.example.finalyearauthientication.ui.TermsAndCondition.TermsAndCondition"
+        android:label="@string/terms"
+        tools:layout="@layout/fragment_terms_and_condition" />
+
+
+</navigation>

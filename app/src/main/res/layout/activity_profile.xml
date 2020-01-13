@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:src="@drawable/ic_account_circle_black_24dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:focusable="true">
+
+        </ImageView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/user_name"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="UserName"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/user_phone"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="UserPhone"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/user_email"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="UserEmail"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/user_address"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="UserAddress"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/user_password"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="UserPassword"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status:"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/user_Status"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="UserStatus"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
